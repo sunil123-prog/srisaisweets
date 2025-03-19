@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Sai Ram Sweets</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8e44ad;
+            color: white;
+            padding: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            border-bottom: 5px solid #6c3483;
+            flex-wrap: wrap;
+        }
+        .head {
+                font-family: "Roboto", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                font-variation-settings:"wdth" 100;
+                font-size: 30px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .sweet-item {
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .sweet-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #6c3483;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1.1px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #6c3483;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: 180px;
+            border-radius: 10px;
+            margin-top: 8px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #6c3483;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            header {
+                font-size: 18px;
+                padding: 10px;
+            }
+            h1 {
+                font-size: 16px;
+            }
+            h2 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./images/sai.jpg" width="50" height="50">
+        <span class="head">SRI SAI RAM SWEETS</span>
+        <img src="./images/narasimhaswamy.jpg" width="50" height="50">
+    </header>
+    
+    <h2 style="text-align: center;font-size: 40px;margin-top: 40px;">Mobile: 6309592580</h2>
+    
+    <div class="container">
+        <div class="sweet-item">
+            <h1>Kaju Katli</h1>
+            <img src="./images/kaju.jpg" alt="Kaju Katli">
+        </div>
+        <div class="sweet-item">
+            <h1>Mothichoor Laddu</h1>
+            <img src="./images/moti.jpg" alt="Mothichoor Laddu">
+        </div>
+        <div class="sweet-item">
+            <h1>Jalebi</h1>
+            <img src="./images/jilebi.jpg" alt="Jalebi">
+        </div>
+        <div class="sweet-item">
+            <h1>Gulab Jamun</h1>
+            <img src="./images/gulab.jpg" alt="Gulab Jamun">
+        </div>
+        <div class="sweet-item">
+            <h1>Nethi Mysore Pak</h1>
+            <img src="./images/mysorepak.jpg" alt="Nethi Mysore Pak">
+        </div>
+        <div class="sweet-item">
+            <h1>Masala Chekkalu</h1>
+            <img src="./images/masala.jpg" alt="Masala Chekkalu">
+        </div>
+        <div class="sweet-item">
+            <h1>Mixture Bundi</h1>
+            <img src="./images/mixture.jpg" alt="Mixture Bundi">
+        </div>
+        <div class="sweet-item">
+            <h1>Milk</h1>
+            <img src="./images/milk.jpg" alt="Milk">
+        </div>
+        <div class="sweet-item">
+            <h1>Paneer</h1>
+            <img src="./images/panner.jpg" alt="Paneer">
+        </div>
+        <div class="sweet-item">
+            <h1>Ghee</h1>
+            <img src="./images/ghee.jpg" alt="Ghee">
+        </div>
+        <div class="sweet-item">
+            <h1>Badam Milk</h1>
+            <img src="./images/badammilk.jpg" alt="Badam Milk">
+        </div>
+        <div class="sweet-item">
+            <h1>Cool Drinks</h1>
+            <img src="./images/cooldrinks.jpg" alt="Cool Drinks">
+        </div>
+    </div>
+
+    <div class="map">
+        <h2 style="text-align: center;font-size: 40px;">Google map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3830.6898164502754!2d80.03117297513944!3d16.236378584467577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDE0JzExLjAiTiA4MMKwMDInMDEuNSJF!5e0!3m2!1sen!2sin!4v1742412234507!5m2!1sen!2sin" style="border:0;width: 100%;height: 350px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        <p>&copy; 2025 Sri Sai Ram Sweets. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
